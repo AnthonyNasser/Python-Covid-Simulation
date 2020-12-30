@@ -1,0 +1,27 @@
+## Advantages of Sorting and BinarySearch over BinarySearchTree ##
+
+-- Binary Searching is much faster in most cases, running in worst O(log2(N)) compared to O(N/2)
+-- Binary Search has much simpler implementation, and is often a part of a library
+-- BST is best implemented as balanced, otherwise it would be much slower
+-- BST's shape depends on the order of insertion, which can be costly in some cases
+
+## Advantages of Sorting and BinarySearch over Heaps ##
+
+-- Binary Searching is easier to implement than a Heap (imo)
+-- Binary Searching is better for a large number of elements
+-- Merge Sorting is best with large amounts of data
+
+## Disadvantages of Sorting and BinarySearch over BinarySearch Tree ##
+
+-- Binary Searching is overkill for searching a small number of elements
+-- Binary Searching only works on lists that are sorted
+-- Binary Searching is not ideal for lists that are constantly being appended
+-- Binary Searching is not efficient for random access searching
+-- Cost of BST is more efficient when inserting, deleting, and searching when N is large
+
+## Disadvantages of Sorting and BinarySearch over Heaps ##
+
+-- Heap Sort can find min and max in the most efficient time
+-- Heap Sort algorithm is much more efficient when searching a small number of elements
+-- Heap Algorithm offers more consistent performance because of this
+-- Heap Sort algorithm is much easier to understand than Binary Search
